@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import Cart from './Components/Pages/Cart/Cart'
 import Home from './Components/Pages/Cart/Home/Home'
 import Placeholder from './Components/Pages/PlaceOrder/Placeorder'
+import StoreContextProvider, { StoreContext } from './Context/StoreContext'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
          <Route path='/Cart' element={<Cart/>} />
          <Route path='/order' element={<Placeholder/>} />
       </Routes>
+      <StoreContextProvider/>
       
     </div>
   )
