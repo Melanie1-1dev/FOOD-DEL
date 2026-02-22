@@ -1,11 +1,11 @@
 import React from 'react'
-import './Placeorder.css'
-const Placeholder = () => {
+import './PlaceOrder.css'
+const Placeorder = () => {
   return (
-    <div className='placeholder'>
+    <div>
       
     </div>
   )
 }
 
-export default Placeholder
+export default Placeorder
