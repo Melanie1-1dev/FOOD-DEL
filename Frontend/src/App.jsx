@@ -5,6 +5,7 @@ import Home from './Components/Pages/Home/Home'
 import Cart from "./Components/Pages/Cart/Cart";
 import Placeorder from './Components/Pages/PlaceOrder/Placeorder'
 import Footer from './Components/Footer/Footer';
+import AppDownload from './Components/AppDownload/AppDownload';
 
 const App = () => {
   return (
@@ -17,9 +18,12 @@ const App = () => {
         <Route path='/order' element={<Placeorder/>}/>
 
       </Routes>
+    <AppDownload/>
+
     </div>
     <Footer/>
     </>
+
     
   )
 }
