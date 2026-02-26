@@ -56,7 +56,7 @@
 }
 
 .login-popup-container button:hover{
-    transform: translateY(1opx);
+    transform: translateY(3px);
 }
 
 /.login-popup-con{
