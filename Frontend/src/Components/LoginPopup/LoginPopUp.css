@@ -18,3 +18,48 @@
     font-size: 16px;
     animation: fadeIn 0.5s;
 }
+.login-popup-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.login-popup-title h2{
+    width: 16px;
+    cursor: pointer;
+
+}
+
+.login-popup-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-popup-inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.login-popup-container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: tomato;
+    font-size: 16px;
+    cursor: pointer;
+    transition: fadeIn 0.7s;
+}
+
+.login-popup-container button:hover{
+    transform: translateY(1opx);
+}
+
+/.login-popup-con{
+
+     
+}
