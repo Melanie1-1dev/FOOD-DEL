@@ -9,10 +9,11 @@ const Cart = () => {
       <div className="cart-items">
         <div className="cart-items-title">
           <p>Items</p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
+          <p>Title</p>
+          <p>Price</p>
+          <p>Quantity</p>
+          <p>Total</p>
+          <p>Remove</p>
         </div>
       </div>
       
