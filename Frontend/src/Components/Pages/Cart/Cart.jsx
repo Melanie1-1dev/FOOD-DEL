@@ -17,6 +17,7 @@ const Cart = () => {
         </div>
         <br />
         <hr />
+        {}
       </div>
       
     </div>
