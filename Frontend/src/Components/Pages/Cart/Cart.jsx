@@ -17,9 +17,10 @@ const Cart = () => {
         </div>
         <br />
         <hr />
-        {food_list.map((item)=>{
-          if
-        }
+        {food_list.map((item, index)=>{
+          
+
+        })}
       </div>
       
     </div>
