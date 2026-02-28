@@ -2,5 +2,24 @@
     margin-top: 100px;
 }
 .cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0.5fr;
+    justify-content: space-around;
+    align-items: center;
+    font-size: max(1.2vw, 12px);
+    font-weight: 500;
+    color: grey;
+    margin-bottom: 20px;
     
+}
+.cart-items-item{
+    margin: 10px 0;
+    color: black;
+
+}
+.cart-items-item img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
 }
