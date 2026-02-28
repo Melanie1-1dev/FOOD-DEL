@@ -23,16 +23,48 @@ const Cart = () => {
           if(cartItems[item._id]>0)
             {
             return(
+              <div>
               <div className="cart-items-title cart-items-item">
-                <img src={item.image} alt="" />
+                
+                  <img src={item.image} alt="" />
                 <p>{item.name}</p>
-                <p>{item.price}</p>
+                <p>${item.price}</p>
                 <p>{cartItems[item._id]}</p>
-                <p>{cartItems[item._id]*item.price}</p>
+                <p>${cartItems[item._id]*item.price}</p>
+                <p className='cross' onClick={()=>removeFromCart(item._id)}>x</p>
+                </div>
+                <hr />
                 </div>
                 )
               }
                 })}
+      </div>
+      <div className="cart-bottom">
+        <div className="cart-total">
+          <h2>Cart Totals</h2>
+          <div>
+            <div className="cart-total-details">
+              <p>Subtotal</p>
+              <p>{0}</p>
+            </div>
+            <hr />
+            <div className="cart-total-details">
+              <p>Delivery Fee</p>
+              <p>${2}</p>
+            </div>
+            <hr />
+            <div className="cart-total-details">
+              <b>Total</b>
+              <b>{0}</b>
+
+            </div>
+          </div>
+            <button> PROCEED TO CHECKOUT</button>
+
+        </div>
+        <div className="cart-promocode">
+          <h2>Have a Promo Code?</h2>
+        </div>
       </div>
       
     </div>
