@@ -110,4 +110,9 @@
     cursor: pointer;
     transition: all 0.5s ease;    
 }
-
+.cart-promocode-input button:hover{
+    background-color: rgb(185, 131, 122);
+    transform: translateY(2px) rotateY(20deg);
+    color: yellowgreen;
+    border-radius: 10px;
+}
