@@ -76,7 +76,7 @@
     flex: 1;
 
 }
-.cart-promocode p{
+.cart-promocode h2{
     color: #555;
     font-size: max(1vw, 12px);
 }
@@ -86,10 +86,28 @@
     border: 3px solid #ccc;
     border-radius: 4px;
     margin-top: 10px;
-    margin-right: 20PX;
     display: flex;
     justify-content: space-between;
     background-color: #eaeaea;
-    
+
+}
+.cart-promocode-input input{
+    width: 70%;
+    border: none;
+    background-color: transparent;
+    font-size: max(1vw, 12px);
+    padding-left: 10px;
+    margin-right: 20PX;
+
+}
+.cart-promocode-input button{
+    width: max(10vw, 150px);
+    padding: 12px 5px;
+    border: none;
+    color: white;
+    background-color: rgb(185, 131, 122);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;    
 }
 
