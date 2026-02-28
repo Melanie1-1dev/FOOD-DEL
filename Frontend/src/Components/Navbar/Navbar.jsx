@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom'
 const Navbar = ({setShowLogin}) => {
 
     const [menu, setMenu] = useState("Menu");
+
+    const {getTotalCartAmount} = useContext(StoreContext);
   return (
     <div className='navbar'>
       <Link to="/"><img src={assets} className = "logo" alt="logo" /></Link>
