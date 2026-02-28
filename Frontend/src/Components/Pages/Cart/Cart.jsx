@@ -1,6 +1,8 @@
 import React, { useContext } from 'react'
 import './Cart.css'
 import { StoreContext } from '../../../Context/StoreContext'
+
+
 const Cart = () => {
 
   const{cartItems,food_list,removeFromCart} = useContext(StoreContext)
@@ -17,10 +19,20 @@ const Cart = () => {
         </div>
         <br />
         <hr />
-        {food_list.map((item, index)=>{
-          
-
-        })}
+        {food_list.map((item,index)=>{
+          if(cartItems[item._id]>0)
+            {
+            return(
+              <div className="cart-items-title cart-items-item">
+                <img src={item.image} alt="" />
+                <p>{item.name}</p>
+                <p>{item.price}</p>
+                <p>{cartItems[item._id]}</p>
+                <p>{cartItems[item._id]*item.price}</p>
+                </div>
+                )
+              }
+                })}
       </div>
       
     </div>
