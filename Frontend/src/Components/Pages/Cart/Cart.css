@@ -21,17 +21,17 @@
     width: 50px;
     height: 50px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 .cart hr{
-    height: 2px;
+    height: 3px;
     background-color: white;
 
 }
 .cart-items-item .cross{
-    font-size: 20px;
-    color: red;
-    font-weight: 500;
+    font-size: 30px;
+    color: tomato;
+    font-weight: 1000;
     cursor: pointer;
 }
 .cart-bottom{
@@ -39,8 +39,13 @@
     justify-content: space-between;
     display: flex;
     gap: max(12px, 20vw);
+   
+    }
+    .cart-bottom h2,p{
+        margin-bottom: 20px;
+    }
 
-}
+
 .cart-total{
     flex: 1;
     display: flex;

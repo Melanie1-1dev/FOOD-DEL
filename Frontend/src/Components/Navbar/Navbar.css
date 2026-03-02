@@ -5,14 +5,15 @@
     align-items: center;
 }
 .navbar .logo{
-    width: 150px;
+    width: 15em;
+    height: 5vw;
 }
 .navbar-menu{
     display: flex;
     list-style: none;
-    font-size: 25px;
+    font-size: 20px;
     gap: 25px;
-    color: skyblue;
+    color: rgb(76, 194, 240);
 
 }
 .navbar-right{
@@ -32,12 +33,13 @@
     margin-left: 50px;
     transition: 0.3s;
 }
+
 .navbar button:hover{
     background-color: #fff4f2;
 }
 .navbar .active{
     padding-bottom: 3px;
-    border-bottom: 2px solid #49557e;
+    border-bottom: 2.5px solid #49557e;
 }
 .navbar li{
     cursor: pointer;
